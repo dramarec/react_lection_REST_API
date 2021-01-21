@@ -5,8 +5,8 @@ import {
     deleteProduct,
     updateProduct,
 } from "../../api/data";
-import ProductForm from "../productForm/ProductForm";
-import ProductsList from "../productsList/ProductsList";
+import ProductForm from "./productForm/ProductForm";
+import ProductsList from "./productsList/ProductsList";
 
 const initialState = {
     products: [],
